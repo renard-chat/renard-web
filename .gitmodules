@@ -1,0 +1,3 @@
+[submodule "renard-sdk"]
+	path = renard-sdk
+	url = https://github.com/renard-chat/renard-sdk
