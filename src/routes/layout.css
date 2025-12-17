@@ -1,3 +1,43 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+* {
+	box-sizing: border-box;
+}
+
+@theme {
+	--color-*: initial;
+	--color-home-darker: #120f0c;
+	--color-home-dark: #352b20;
+	--color-home-light: #997047;
+	--color-home-lighter: #f0dcc8;
+	--color-home-accent: #ff7f00;
+	--ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+	--ease-bounce: linear(
+		0,
+		0.01 1%,
+		0.039 2%,
+		0.088 3.1%,
+		0.159 4.3%,
+		0.316 6.4%,
+		0.794 12.1%,
+		0.924 13.9%,
+		1.023 15.5%,
+		1.104 17.1%,
+		1.165 18.7%,
+		1.208 20.3%,
+		1.234 22%,
+		1.243 24.3%,
+		1.223 26.8%,
+		1.184 29.3%,
+		1.058 35.5%,
+		1.006 38.5%,
+		0.965 41.9%,
+		0.944 45.4%,
+		0.945 50.5%,
+		0.998 62.1%,
+		1.013 68.6%,
+		1
+	);
+}
