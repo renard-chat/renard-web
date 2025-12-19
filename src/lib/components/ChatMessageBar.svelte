@@ -49,7 +49,7 @@
 <div
 	class="m-4 flex min-h-12.5 items-center rounded-[25px] bg-home-darker p-2 shadow-lg {className}"
 >
-	<IconButton icon="plus-circle" shortcut="alt+shift+a" />
+	<IconButton icon="plus-circle" shortcut="alt+a" />
 	<textarea
 		bind:value={textAreaValue}
 		bind:this={textarea}

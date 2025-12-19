@@ -66,11 +66,13 @@
     }
   ];
 
+  let {data} = $props();
+
   let activeChat = $state(0);
 </script>
 <div class="flex p-4 pb-0 gap-4 h-screen overflow-hidden">
   <div class="flex flex-col gap-3 w-100">
-    <UserSelfProfileCard/>
+    <UserSelfProfileCard user={data.user}/>
     <UserList {chats} bind:activeChat/>
   </div>
   <div class="flex flex-col gap-3 w-full">

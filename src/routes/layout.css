@@ -7,7 +7,6 @@
 }
 
 @theme {
-	--color-*: initial;
 	--color-home-darker: #120f0c;
 	--color-home-dark: #352b20;
 	--color-home-light: #997047;
